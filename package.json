@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.3",
+    "jest": "^29.5.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.2"
+  },
+  "name": "moz-prob",
+  "description": "This question should take about 1-2 hours to solve. When you're done, email your source code and solution to us at takehome@moz.com. The easiest way is to send the JS file with a `.txt` extension, e.g. `solution.js.txt`. Even if you don't complete the solution in 2 hours, please email in your progress.",
+  "version": "1.0.0",
+  "main": "solution.ts",
+  "scripts": {
+    "build": "tsc",
+    "run:dev": "ts-node-dev ./solution.ts",
+    "run:prod": "ts-node ./solution.ts",
+    "start:dev": "ts-node-dev --respawn ./solution.ts",
+    "start:prod": "ts-node --respawn ./soution.ts",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "run-script": "^0.1.1"
+  }
+}
